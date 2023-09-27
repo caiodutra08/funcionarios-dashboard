@@ -1,0 +1,9 @@
+{
+  "lumoImports" : [ "typography", "color", "spacing", "badge", "utility" ],
+  "assets" : {
+    "@fontsource/poppins" : {
+      "*.css" : "@fontsource/poppins",
+      "files/*" : "@fontsource/poppins/files"
+    }
+  }
+}

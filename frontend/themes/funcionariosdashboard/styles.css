@@ -1,0 +1,24 @@
+@import url('./main-layout.css');
+@import url('./views/funcionarios-view.css');
+@import url('@fontsource/poppins/index.css');    html {
+      --lumo-body-text-color: hsla(280, 69%, 26%, 0.94);
+--lumo-font-family: Poppins;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-shade-5pct: hsla(279, 33%, 13%, 0.05);
+      --lumo-shade-10pct: hsla(279, 33%, 13%, 0.1);
+      --lumo-shade-20pct: hsla(279, 33%, 13%, 0.2);
+      --lumo-shade-30pct: hsla(279, 33%, 13%, 0.3);
+      --lumo-shade-40pct: hsla(279, 33%, 13%, 0.4);
+      --lumo-shade-50pct: hsla(279, 33%, 13%, 0.5);
+      --lumo-shade-60pct: hsla(279, 33%, 13%, 0.6);
+      --lumo-shade-70pct: hsla(279, 33%, 13%, 0.7);
+      --lumo-shade-80pct: hsla(279, 33%, 13%, 0.8);
+      --lumo-shade-90pct: hsla(279, 33%, 13%, 0.9);
+      --lumo-shade: hsla(279, 33%, 13%, 1);
+      --lumo-base-color: hsl(251, 35%, 21%);
+      --lumo-body-text-color: hsla(107, 96%, 96%, 0.9);
+
+    }
